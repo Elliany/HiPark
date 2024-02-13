@@ -7,6 +7,7 @@ roboflow:
   url: https://universe.roboflow.com/vnu-tvtgl/hi-park/dataset/1
   version: 1
   workspace: vnu-tvtgl
-test: ../test/images
+path: D:\project\HiPark\ANPR
+test: Hi-park-1/test/images
 train: Hi-park-1/train/images
 val: Hi-park-1/valid/images
