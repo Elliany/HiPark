@@ -1,0 +1,12 @@
+names:
+- plate
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: hi-park
+  url: https://universe.roboflow.com/vnu-tvtgl/hi-park/dataset/1
+  version: 1
+  workspace: vnu-tvtgl
+test: ../test/images
+train: Hi-park-1/train/images
+val: Hi-park-1/valid/images
