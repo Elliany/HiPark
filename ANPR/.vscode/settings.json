@@ -1,10 +1,24 @@
 {
     "cSpell.words": [
+        "botsort",
+        "codemirror",
+        "conv",
+        "Disp",
+        "fliplr",
+        "flipud",
         "imgsz",
+        "ipykernel",
+        "ipython",
+        "kernelspec",
+        "nbconvert",
+        "pygments",
         "roboflow",
+        "SPPF",
         "Tmoq",
         "torchvision",
         "tvtgl",
-        "ultralytics"
+        "ultralytics",
+        "Uncorr",
+        "Upsample"
     ]
 }
