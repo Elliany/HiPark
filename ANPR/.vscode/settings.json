@@ -4,6 +4,7 @@
         "codemirror",
         "conv",
         "Disp",
+        "easyocr",
         "fliplr",
         "flipud",
         "imgsz",
@@ -11,7 +12,10 @@
         "ipython",
         "kernelspec",
         "nbconvert",
+        "postprocess",
+        "preds",
         "pygments",
+        "readtext",
         "roboflow",
         "SPPF",
         "Tmoq",
@@ -19,6 +23,9 @@
         "tvtgl",
         "ultralytics",
         "Uncorr",
-        "Upsample"
+        "Upsample",
+        "whwh",
+        "xywh",
+        "xyxy"
     ]
 }
