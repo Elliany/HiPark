@@ -1,12 +1,12 @@
 # yolo_detector.py
 
 import torch
-from ultralytics import YOLOv8  # This might need adjustment based on the exact package structure
+from ultralytics import YOLO  # This might need adjustment based on the exact package structure
 
 class YoloDetector:
     def __init__(self, model_name='yolov8n', device='cuda'):
         self.device = device
-        self.model = YOLOv8(model_name).to(self.device)
+        self.model = YOLO(model_name).to(self.device)
 
     def detect(self, frame):
         # Ensure the frame is in the right format and dimension for YOLO
