@@ -4,10 +4,10 @@ import hydra
 import torch
 import easyocr
 import cv2
-from ultralytics.yolo.engine.predictor import BasePredictor
-from ultralytics.yolo.utils import DEFAULT_CONFIG, ROOT, ops
-from ultralytics.yolo.utils.checks import check_imgsz
-from ultralytics.yolo.utils.plotting import Annotator, colors, save_one_box
+from ultralytics.engine.predictor import BasePredictor
+from ultralytics.utils import DEFAULT_CONFIG, ROOT, ops
+from ultralytics.utils.checks import check_imgsz
+from ultralytics.utils.plotting import Annotator, colors, save_one_box
 
 def getOCR(im, coors):
     x,y,w, h = int(coors[0]), int(coors[1]), int(coors[2]),int(coors[3])
